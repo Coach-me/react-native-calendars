@@ -24,7 +24,7 @@ const SPEED = 20;
 const BOUNCINESS = 6;
 const CLOSED_HEIGHT = 120; // header + 1 week
 const WEEK_HEIGHT = 46;
-const KNOB_CONTAINER_HEIGHT = 30;
+const KNOB_CONTAINER_HEIGHT = commons.isAndroid ? 35 : 25; 
 const HEADER_HEIGHT = 68;
 const DAY_NAMES_PADDING = 24;
 
